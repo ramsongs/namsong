@@ -1,3 +1,6 @@
+// import variables
+@import "_variables";
+
 // reset
 html,
 body,
@@ -85,7 +88,9 @@ video {
   border: 0;
   font-size: 100%;
   font: inherit;
+  font-family: $main-font;
   vertical-align: baseline;
+  box-sizing: border-box;
 }
 
 article,
@@ -146,18 +151,19 @@ a {
   margin: 0 auto;
 }
 
-// import variables
-@import "_variables";
+.separator {
+  color: $main-color;
+  margin: 0 10px;
+}
 
 // header
 header {
   background-color: #222; // temporary
   width: 100%;
-  height: 60px;
+  height: 70px;
   display: flex;
   justify-content: center;
   padding: 10px 0;
-  font-family: $main-font;
 
   .header__wrap {
     display: flex;
@@ -196,7 +202,6 @@ header {
   height: 800px;
 
   .main-visual__content {
-    font-family: $main-font;
     font-size: 50px;
     font-weight: 700;
     text-align: center;
@@ -205,5 +210,29 @@ header {
   .main-visual__img {
     height: 100%;
     background: no-repeat center / cover url(../images/goods.png);
+  }
+}
+
+// faq
+.faq {
+  .faq-top {
+    height: 350px;
+    background-color: $point-color;
+    padding: 70px 0;
+    text-align: center;
+
+    .faq-top__wrap {
+      width: 660px;
+      margin: 0 auto;
+
+      .faq-top__title {
+        font-weight: 700;
+        font-size: 34px;
+      }
+
+      .faq-top__time {
+        margin-top: 20px;
+      }
+    }
   }
 }
