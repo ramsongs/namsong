@@ -19,7 +19,7 @@ export default function Header() {
               <Link to="/">남송 이야기</Link>
             </li>
             <li>
-              <Link to="/faq">고객센터</Link>
+              <Link to="/cs">고객센터</Link>
             </li>
           </ul>
         </nav>

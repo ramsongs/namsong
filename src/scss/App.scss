@@ -213,25 +213,58 @@ header {
   }
 }
 
-// faq
-.faq {
-  .faq-top {
+// cs
+.cs {
+  .cs-top {
     height: 350px;
     background-color: $point-color;
     padding: 70px 0;
     text-align: center;
 
-    .faq-top__wrap {
+    .cs-top__wrap {
       width: 660px;
       margin: 0 auto;
 
-      .faq-top__title {
+      .cs-top__title {
         font-weight: 700;
         font-size: 34px;
       }
 
-      .faq-top__time {
+      .cs-top__time {
         margin-top: 20px;
+      }
+
+      .cs-contact {
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+
+        .cs-contact__wrap {
+          // &:first-child:hover {
+          //   color: rgb(59, 177, 44);
+          // }
+
+          // &:nth-child(2):hover {
+          //   color: rgb(218, 85, 73);
+          // }
+
+          // &:last-child:hover {
+          //   color: rgb(254, 229, 0);
+          // }
+
+          .icon-container {
+            font-size: 24px;
+          }
+
+          .cs-contact__content {
+            margin-top: 10px;
+            font-size: 14px;
+
+            .cs-contact__detail {
+              margin-top: 5px;
+            }
+          }
+        }
       }
     }
   }

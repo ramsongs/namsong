@@ -1,6 +1,6 @@
 import { HashRouter, Route } from "react-router-dom";
 import Home from "./routes/Home";
-import Faq from "./routes/Faq";
+import Cs from "./routes/Cs";
 import Header from "./components/Header";
 import "./scss/App.scss";
 
@@ -11,7 +11,7 @@ export default function App() {
         <Header />
         <main>
           <Route path="/" exact="ture" component={Home}></Route>
-          <Route path="/faq" component={Faq}></Route>
+          <Route path="/cs" component={Cs}></Route>
         </main>
       </HashRouter>
     </div>
