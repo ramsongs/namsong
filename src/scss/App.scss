@@ -291,11 +291,14 @@ header {
 // footer
 .footer {
   margin-top: 200px;
-  background-color: #1c1c1c;
   height: 200px;
+  box-sizing: border-box;
+  padding: 50px 0;
+  background-color: #1c1c1c;
   color: #fff;
   font-weight: 200;
   font-size: 12px;
+  line-height: 20px;
 
   * {
     color: inherit;
