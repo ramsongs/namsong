@@ -2,6 +2,7 @@ import { HashRouter, Route } from "react-router-dom";
 import Home from "./routes/Home";
 import Cs from "./routes/Cs";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import "./scss/App.scss";
 
 export default function App() {
@@ -13,6 +14,7 @@ export default function App() {
           <Route path="/" exact="ture" component={Home}></Route>
           <Route path="/cs" component={Cs}></Route>
         </main>
+        <Footer />
       </HashRouter>
     </div>
   );

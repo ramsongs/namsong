@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
@@ -10,16 +10,36 @@ export default function Header() {
         <nav>
           <ul className="gnb">
             <li>
-              <Link to="/">주문 방법</Link>
+              <NavLink
+                activeStyle={{ fontWeight: "500", color: "rgb(0, 195, 137)" }}
+                to="/order"
+              >
+                주문 방법
+              </NavLink>
             </li>
             <li>
-              <Link to="/">상품보기</Link>
+              <NavLink
+                activeStyle={{ fontWeight: "500", color: "rgb(0, 195, 137)" }}
+                to="/products"
+              >
+                상품보기
+              </NavLink>
             </li>
             <li>
-              <Link to="/">남송 이야기</Link>
+              <NavLink
+                activeStyle={{ fontWeight: "500", color: "rgb(0, 195, 137)" }}
+                to="/about"
+              >
+                남송 이야기
+              </NavLink>
             </li>
             <li>
-              <Link to="/cs">고객센터</Link>
+              <NavLink
+                activeStyle={{ fontWeight: "500", color: "rgb(0, 195, 137)" }}
+                to="/cs"
+              >
+                고객센터
+              </NavLink>
             </li>
           </ul>
         </nav>

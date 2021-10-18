@@ -1,6 +1,12 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Faq from "react-faq-component";
-import { faqData } from "../db/faqData";
+import {
+  deliveryFaq,
+  productFaq,
+  paymentFaq,
+  returnAndRefundFaq,
+  defaultStyles,
+} from "../db/faqData";
 import {
   faPhoneAlt,
   faEnvelope,
@@ -52,8 +58,12 @@ export default function Cs() {
           </ul>
         </div>
       </article>
-      <article className="faq">
-        <Faq data={faqData} />
+      <article className="faq inner">
+        <h2 className="faq__title">FAQ</h2>
+        <Faq data={deliveryFaq} styles={defaultStyles} />
+        <Faq data={productFaq} styles={defaultStyles} />
+        <Faq data={returnAndRefundFaq} styles={defaultStyles} />
+        <Faq data={paymentFaq} styles={defaultStyles} />
       </article>
     </section>
   );
