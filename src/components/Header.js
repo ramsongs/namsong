@@ -11,7 +11,7 @@ export default function Header() {
           <ul className="gnb">
             <li>
               <NavLink
-                activeStyle={{ fontWeight: "500", color: "rgb(0, 195, 137)" }}
+                activeStyle={{ fontWeight: "600", color: "rgb(0, 195, 137)" }}
                 to="/order"
               >
                 주문 방법
@@ -19,7 +19,7 @@ export default function Header() {
             </li>
             <li>
               <NavLink
-                activeStyle={{ fontWeight: "500", color: "rgb(0, 195, 137)" }}
+                activeStyle={{ fontWeight: "600", color: "rgb(0, 195, 137)" }}
                 to="/products"
               >
                 상품보기
@@ -27,7 +27,7 @@ export default function Header() {
             </li>
             <li>
               <NavLink
-                activeStyle={{ fontWeight: "500", color: "rgb(0, 195, 137)" }}
+                activeStyle={{ fontWeight: "600", color: "rgb(0, 195, 137)" }}
                 to="/about"
               >
                 남송 이야기
@@ -35,7 +35,7 @@ export default function Header() {
             </li>
             <li>
               <NavLink
-                activeStyle={{ fontWeight: "500", color: "rgb(0, 195, 137)" }}
+                activeStyle={{ fontWeight: "600", color: "rgb(0, 195, 137)" }}
                 to="/cs"
               >
                 고객센터
