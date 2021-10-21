@@ -160,6 +160,7 @@ a {
 // header
 header {
   width: 100%;
+  min-width: 1200px;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -167,6 +168,7 @@ header {
 
   .header__wrap {
     display: flex;
+    justify-content: space-around;
 
     .logo {
       font-size: 0;
@@ -180,7 +182,6 @@ header {
       width: 50%;
 
       .gnb {
-        margin-left: 100px;
         height: 100%;
         display: flex;
         justify-content: space-around;
@@ -199,6 +200,7 @@ header {
 
 // home
 .main-visual {
+  min-width: 1200px;
   height: 800px;
 
   .main-visual__content {
@@ -215,6 +217,8 @@ header {
 
 // cs
 .cs {
+  min-width: 1200px;
+
   .cs-top {
     height: 350px;
     background-color: $point-color;
@@ -271,6 +275,8 @@ header {
 
   .faq {
     margin-top: 50px;
+    min-width: 1200px;
+    padding: 0 50px;
 
     .faq__title {
       font-size: 40px;
@@ -296,6 +302,7 @@ header {
 // footer
 .footer {
   margin-top: 200px;
+  min-width: 1200px;
   height: 200px;
   box-sizing: border-box;
   padding: 50px 0;
@@ -313,6 +320,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 50px;
 
     .footer__title {
       font-weight: 600;
@@ -339,6 +347,41 @@ header {
           filter: grayscale(0%);
         }
       }
+    }
+  }
+}
+
+// 768px 모바일
+@media screen and (max-width: 768px) {
+  // header
+  header {
+    width: 100%;
+    min-width: 768px;
+
+    .header__wrap {
+      justify-content: space-between;
+      padding: 0 10px;
+
+      // gnb-mobile 만들기
+    }
+  }
+
+  .cs {
+    min-width: 768px;
+
+    .faq {
+      width: 100%;
+      min-width: 768px;
+    }
+  }
+
+  // footer
+  .footer {
+    margin-top: 200px;
+    min-width: 768px;
+
+    .footer__wrap {
+      width: 100%;
     }
   }
 }

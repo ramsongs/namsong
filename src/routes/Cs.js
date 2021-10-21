@@ -48,7 +48,11 @@ export default function Cs() {
               </a>
             </li>
             <li className="cs-contact__wrap">
-              <a href="https://www.naver.com" target="_blank" rel="noreferrer">
+              <a
+                href="http://pf.kakao.com/_xdlHzb"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <div className="icon-container">
                   <FontAwesomeIcon icon={faComment} />
                 </div>
