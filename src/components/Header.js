@@ -5,7 +5,7 @@ export default function Header() {
     <header className="header">
       <div className="header__wrap inner">
         <Link to="/" className="logo">
-          남송식품
+          남송FS
         </Link>
         <nav>
           <ul className="gnb">
