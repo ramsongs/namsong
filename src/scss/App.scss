@@ -203,15 +203,31 @@ header {
 }
 
 // home
+.home-title {
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 500;
+}
+
+.home-subscript {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.home-more {
+  color: rgb(0, 195, 137);
+  display: inline-block;
+}
+
 .main-visual {
   min-width: 1200px;
-  height: 1300px;
   display: flex;
   flex-direction: column;
 
   .main-visual__img {
     width: 100%;
-    height: 100%;
+    height: calc(100vh - 70px);
     background: no-repeat center / cover url(../images/main_visual.png);
 
     .main-visual__content {
@@ -223,19 +239,32 @@ header {
       padding-bottom: 200px;
 
       .main-visual__title {
-        font-size: 40px;
-        line-height: 50px;
-        font-weight: 500;
         color: #fff; // temporary
       }
 
       .main-visual__subscript {
-        font-size: 14px;
-        line-height: 20px;
-        margin-top: 30px;
         font-weight: 300;
         color: #fff; // temporary
       }
+    }
+  }
+
+  .main-comparison {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0;
+    box-sizing: border-box;
+    text-align: center;
+
+    .main-comparison__img {
+      width: 900px;
+      height: 532px;
+      background: no-repeat center / cover url(../images/main_comparison.png);
+    }
+
+    .main-comparison__content {
+      margin-top: 40px;
     }
   }
 
@@ -244,23 +273,6 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-
-    .main-products__content {
-      .main-products__title {
-        font-size: 40px;
-        line-height: 50px;
-        font-weight: 500;
-      }
-
-      .main-products__subscript {
-        font-size: 14px;
-        line-height: 20px;
-        margin-top: 30px;
-        color: rgb(0, 195, 137);
-        display: block;
-        margin-top: 30px;
-      }
-    }
 
     .main-products__img {
       width: 30%;
@@ -356,7 +368,7 @@ header {
 
 // footer
 .footer {
-  margin-top: 200px;
+  margin-top: 100px;
   min-width: 1200px;
   height: 200px;
   box-sizing: border-box;
