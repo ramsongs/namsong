@@ -49,7 +49,7 @@ export default function Cs() {
             </li>
             <li className="cs-contact__wrap">
               <a
-                href="http://pf.kakao.com/_xdlHzb"
+                href="https://pf.kakao.com/_xdlHzb/chat"
                 target="_blank"
                 rel="noreferrer"
               >
