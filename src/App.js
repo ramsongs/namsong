@@ -10,11 +10,11 @@ import "./scss/App.scss";
 
 export default function App() {
   return (
-    <div>
+    <>
       <HashRouter>
         <Header />
         <main>
-          <Route path="/" exact="ture" component={Home}></Route>
+          <Route path="/" exact={true} component={Home}></Route>
           <Route path="/products" component={Products}></Route>
           <Route path="/order" component={Order}></Route>
           <Route path="/about" component={About}></Route>
@@ -22,6 +22,6 @@ export default function App() {
         </main>
         <Footer />
       </HashRouter>
-    </div>
+    </>
   );
 }
