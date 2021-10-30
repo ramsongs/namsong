@@ -8,6 +8,11 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import "./scss/App.scss";
 
+const ScrollToTop = () => {
+  window.scrollTo(0, 0);
+  return null;
+};
+
 export default function App() {
   return (
     <>
@@ -19,6 +24,7 @@ export default function App() {
           <Route path="/order" component={Order}></Route>
           <Route path="/about" component={About}></Route>
           <Route path="/cs" component={Cs}></Route>
+          <Route component={ScrollToTop}></Route>
         </main>
         <Footer />
       </HashRouter>
