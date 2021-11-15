@@ -5,7 +5,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 export default function Home() {
   return (
     <section className="main-visual">
-      <article className="main-visual__img">
+      {/* <article className="main-visual__img">
         <div className="main-visual__content">
           <h2 className="main-visual__title home-title">
             복잡한 유통과정을 <br /> 최소화합니다.
@@ -14,7 +14,7 @@ export default function Home() {
             모두가 합리적인 가격에 <br /> 좋은 제품을 받아볼 수 있도록.
           </small>
         </div>
-      </article>
+      </article> */}
       <article className="main-comparison">
         <div className="main-comparison__img"></div>
         <div className="main-comparison__content">
