@@ -14,7 +14,7 @@ export default function Header() {
                 activeStyle={{ fontWeight: "600", color: "rgb(0, 195, 137)" }}
                 to="/order"
               >
-                주문 방법
+                주문 배송 절차
               </NavLink>
             </li>
             <li>
@@ -22,7 +22,7 @@ export default function Header() {
                 activeStyle={{ fontWeight: "600", color: "rgb(0, 195, 137)" }}
                 to="/products"
               >
-                상품보기
+                상품 보기
               </NavLink>
             </li>
             <li>

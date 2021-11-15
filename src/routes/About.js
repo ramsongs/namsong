@@ -2,7 +2,7 @@ export default function About() {
   return (
     <section className="about">
       <article className="about-top">
-        <h2 class="about-top__slogan">
+        <h2 className="about-top__slogan">
           남송FS는 유통과정을 최소화하여
           <br />
           불합리한 시장을 바꾸고,
