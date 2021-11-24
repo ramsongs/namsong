@@ -646,6 +646,181 @@ header {
     }
   }
 
+  // order
+  .order {
+    .how-to-order {
+      width: 80vw;
+      margin: 30px auto 0;
+
+      .order__step {
+        .step__container {
+          padding: 15px;
+          margin-bottom: 10px;
+
+          .order__title {
+            font-size: 0.8rem;
+            margin-bottom: 10px;
+
+            .order__title--point {
+              display: block;
+              line-height: 1.5rem;
+            }
+          }
+
+          .order__text {
+            font-size: 0.7rem;
+            line-height: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  // products
+  .products {
+    width: 80vw;
+
+    //product
+    .product {
+      flex-direction: column-reverse;
+      justify-content: center;
+      border-radius: 40px;
+      margin: 5vh 0;
+      box-sizing: border-box;
+      padding: 20px 15px;
+
+      .product__content {
+        width: 100%;
+
+        .product__title {
+          font-size: 1.6rem;
+        }
+
+        .product__subscript {
+          margin-top: 1.5vh;
+          font-size: 1.2rem;
+        }
+
+        .product__price {
+          margin-top: 1.5vh;
+          font-size: 1rem;
+        }
+      }
+
+      .product__img {
+        width: 100%;
+        height: calc(80vw * 1.6);
+      }
+    }
+  }
+
+  // about
+  .about {
+    .about-top {
+      margin-top: 5vh;
+      height: auto;
+
+      .about-top__slogan {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        font-weight: 300;
+        text-align: center;
+      }
+    }
+
+    .about-shipping {
+      .shipping__img {
+        margin-top: 5vh;
+        height: 15vh;
+      }
+
+      .shipping__content {
+        margin-top: 5vh;
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+      }
+    }
+  }
+
+  // cs
+  .cs {
+    min-width: 0;
+    width: 100vw;
+
+    .cs-top {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 5vh 0;
+
+      height: 30vh;
+
+      .cs-top__wrap {
+        width: 100%;
+
+        .cs-contact {
+          justify-content: space-evenly;
+        }
+
+        .cs-top__title {
+          font-size: 1.5rem;
+        }
+
+        .cs-top__time {
+          margin-top: 2vh;
+          font-size: 1rem;
+        }
+
+        .cs-contact {
+          margin-top: 5vh;
+
+          .cs-contact__wrap {
+            .icon-container {
+              font-size: 0rem;
+            }
+
+            .cs-contact__content {
+              margin-top: 0.5rem;
+              font-size: 0.9rem;
+
+              .cs-contact__detail {
+                margin-top: 1vh;
+              }
+            }
+
+            &:nth-child(2) {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+
+    .faq {
+      width: 100vw;
+      margin-top: 0px;
+      min-width: 0;
+      padding: 5vw;
+      box-sizing: border-box;
+
+      .faq__title {
+        font-size: 2rem;
+      }
+
+      // react-faq-component
+      .faq-title {
+        line-height: 2.5rem;
+      }
+
+      .faq-row-wrapper {
+        margin-top: 50px;
+      }
+
+      .row-content-text {
+        line-height: 20px;
+      }
+    }
+  }
+
   // footer
   .footer {
     width: 100%;
