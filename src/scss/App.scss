@@ -349,7 +349,7 @@ header {
 
 // products
 .products {
-  width: 960px;
+  min-width: 1200px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -376,14 +376,17 @@ header {
 
       .product__subscript {
         margin-top: 16px;
-        font-size: 20px;
+        font-size: 14px;
+        line-height: 25px;
+        word-break: keep-all;
+        color: #888;
       }
 
       .product__price {
         display: block;
         margin-top: 25px;
-        font-size: 14px;
-        color: #888;
+        font-size: 16px;
+        font-weight: 600;
       }
     }
 
@@ -679,6 +682,7 @@ header {
   // products
   .products {
     width: 80vw;
+    min-width: 0;
 
     //product
     .product {
