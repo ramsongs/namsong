@@ -357,7 +357,7 @@ header {
 
   //product
   .product {
-    width: 100%;
+    width: 80%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -686,6 +686,7 @@ header {
 
     //product
     .product {
+      width: 90vw;
       flex-direction: column-reverse;
       justify-content: center;
       border-radius: 40px;
@@ -702,7 +703,7 @@ header {
 
         .product__subscript {
           margin-top: 1.5vh;
-          font-size: 1.2rem;
+          font-size: 0.9rem;
         }
 
         .product__price {
