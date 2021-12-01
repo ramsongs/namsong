@@ -11,7 +11,10 @@ export default function Order() {
               Step 01: <span className="order__title--point">문자 주문</span>
             </h3>
             <p className="order__text">
-              <a className="order__link" href="tel:010-5024-6461">010-5024-6461</a>로
+              <a className="order__link" href="tel:010-5024-6461">
+                010-5024-6461
+              </a>
+              로
               <br />
               <strong className="order__text--point">
                 성함, 연락처, 희망 상품, 희망수량, 주소
@@ -29,7 +32,8 @@ export default function Order() {
               <span className="order__title--point">카카오톡 주문</span>
             </h3>
             <p className="order__text">
-              <a className="order__link"
+              <a
+                className="order__link"
                 href="https://pf.kakao.com/_xdlHzb/chat"
                 target="_blank"
                 rel="noreferrer"
@@ -55,9 +59,9 @@ export default function Order() {
             </h3>
             <p className="order__text">
               <strong className="order__text--point">
-                신한은행 110-335-624426
+                농협 352-6425-5484-83 (예금주: 남성훈)
               </strong>
-              으로 돈내놔
+              으로 입금해주세요.
             </p>
           </div>
           <FontAwesomeIcon icon={faChevronDown} />
